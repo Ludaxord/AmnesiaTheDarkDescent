@@ -1,0 +1,36 @@
+"/Users/konraduciechowski/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/Extreme/Projects/Personal/AmnesiaTheDarkDescent/HPL2/core
+-- The C compiler identification is AppleClang 11.0.3.11030032
+-- The CXX compiler identification is AppleClang 11.0.3.11030032
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) at CMakeLists.txt:21 (set):
+  Cannot set "DEP_LIB_DIR": current scope has no parent.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:22 (set):
+  Cannot set "DEP_INCLUDE_DIR": current scope has no parent.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at CMakeLists.txt:43 (add_subdirectory):
+  add_subdirectory given source "../dependencies/OALWrapper" which is not an
+  existing directory.
+
+
+CMake Error at cmake/UtilityFunctions.cmake:9 (message):
+  Must set PREBUILT_PLATFORM_ROOT before using this function
+Call Stack (most recent call first):
+  CMakeLists.txt:240 (FindPrebuiltLibrary)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Volumes/Extreme/Projects/Personal/AmnesiaTheDarkDescent/HPL2/core/cmake-build-debug/CMakeFiles/CMakeOutput.log".
